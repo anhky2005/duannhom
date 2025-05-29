@@ -306,16 +306,37 @@ button[type="button"]:hover{
   margin-top: 30px;
   background-color: #5cd30d;
   padding: 10px;
-  width: 25%;
+  width: 50%;
   border-radius: 7px;
+  text-align: center;
+  object-fit: cover;
   
 }
-.handing{
-  margin-top: 50px;
+
+.mia{
+  height: auto;
+  max-width: 100%;
 }
 
 .main{
   align-content: center;
+  text-align: center;
+}
+.main:hover{
+  transform: translateY(-10%);
+  cursor: pointer;
+  transition:2s ease-in-out;
+
+}
+.harmless{
+  text-align: center;
+}
+.handover{
+  margin-top: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.handover h5{
+  margin-bottom: 30px;
 }
 
 
