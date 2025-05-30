@@ -284,6 +284,9 @@
  margin-top: 30px;
   
 }
+.has a{
+  text-decoration: none;
+}
 .clear .card{
   border-radius: 10px;
 }
