@@ -350,10 +350,12 @@ button[type="button"]:hover{
 
 .main{
   align-content: center;
+  align-items: center;
   margin-left: 2%;
+  font-size: 20px;
 }
 .main:hover{
-  transform: translateY(-10%);
+  transform: translateY(-4%);
   cursor: pointer;
   transition:2s ease-in-out;
 
@@ -670,7 +672,21 @@ h2{
   width: 35%;
   text-align: center;
 }
-
+.capture{
+  margin-top: 80px;
+  text-align: center;
+  width: 100%;
+  
+  margin-bottom: 300px;
+}
+.capture .card{
+  width: 100%;
+  max-width: 100%;
+  background-color: #0be65e;
+}
+.capture img{
+  width: 100%;
+}
 .contact-image img {
   width: 100%;              
   max-width: 100%;          
