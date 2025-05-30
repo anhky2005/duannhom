@@ -6,16 +6,19 @@
       background-color: #fff;
       padding: 20px 0;
       border-bottom: 1px solid #ccc;
+      margin-bottom: 0px;
     }
 
     .logo {
       max-height: 100px;
       max-width: 100%;
       height: auto;
+      
      
     }
 
     .navbar {
+      margin-top: -5%;
       background-color: #0f8619;
     }
 
@@ -60,6 +63,10 @@
     font-family: 'Anton',sans-serif;
 
    }
+   .hands:hover{
+    transform: scale(1.1);
+    transition: 3s ease-in-out;
+   }
    .degree h3{
      color: #0da73b;
     font-family: 'Anton',sans-serif;
@@ -74,6 +81,23 @@
    .img-fluid2{
     text-align: center;
     max-width: 100%;
+   }
+   .carbon img{
+    margin-left: 3%;
+   }
+   .card:hover{
+    transform: translateY(-7%);
+    transition: 4s ease-in-out;
+   }
+   .biological{
+    color: black;
+    font-size: 20px;
+   }
+   .biological h2{
+    color: #0be65e;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
    }
 
     .partner-logo img,
@@ -182,6 +206,7 @@
     background-color: #fff;    
   }
 
+
   .small-card img {
     max-height: 90%;           
     max-width: 90%;            
@@ -197,9 +222,7 @@
     height: 100px;
     object-fit: contain;
   }
-  .card:hover{
-    transform: scale(1.1);
-  }
+ 
   h5{
     font-size: 20px;
     font-family: 'Anton',sans-serif;
@@ -247,6 +270,13 @@
   padding: 20px 30px;
   border-radius: 10px;
   color: white;
+}
+
+.header5{
+  cursor: pointer;
+  font-family: 'Anton',sans-serif;
+  color: #0cb53c;
+
 }
 
 
@@ -388,10 +418,6 @@ h2{
 
     .content-section {
       display: none; 
-    }
-    .fw-bold{
-      color: #0da73b;
-       font-family: 'Anton',sans-serif;
     }
     
     p{
@@ -777,11 +803,10 @@ li:hover{
 .conducting h2{
   margin-top: 30px;
 }
-.card {
-  margin-top: 20px;
-}
+
 .text-center{
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 .card-title{
   text-align: center;
@@ -838,6 +863,11 @@ li:hover{
   width: 100%;
   
   
+}
+.img-fluid2:hover{
+  transform: translateY(-8%);
+  cursor: pointer;
+  transition: 5s ease-in-out;
 }
 .rounded h4{
   font-family: 'Anton',sans-serif;
