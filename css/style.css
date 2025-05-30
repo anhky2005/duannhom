@@ -271,6 +271,18 @@
   border-radius: 10px;
   color: white;
 }
+.banner-meme {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgb(237, 234, 234); 
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: rgb(38, 44, 211);
+  opacity: 1;
+}
 
 .header5{
   cursor: pointer;
