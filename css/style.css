@@ -42,6 +42,41 @@
       
       
     }
+    .maintenance{
+      width: 100%;
+      max-width: 100%;
+      object-fit: cover;
+      background-color: #b2afaf;
+      
+      margin-top: 30px;
+    }
+    .campaign{
+      font-family: 'Anuphan', sans-serif;
+    }
+    .half{
+      margin-top: 30px;
+    }
+    .lang{
+      margin-top: 30px;
+      background-color: #c5cac7;
+      object-fit: cover;
+    }
+    .keep{
+      font-family: 'Anton',sans-serif;
+      color: #000 !important;
+
+    }
+    .laticsshop{
+      color: #0be65e !important;
+    }
+    .law{
+      color: #000 !important; 
+      font-size: 27px !important;
+      text-align: center;
+    }
+    .landfill{
+      margin-top: 30px;
+    }
     .coastal h3{
       text-align: center;
       font-weight: bold;
