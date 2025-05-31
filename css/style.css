@@ -16,7 +16,19 @@
       
      
     }
+    .mainly img:hover{
+      transform: scale(1.1);
+      transition: 4s ease-in-out;
 
+    }
+    .mainly h3{
+      margin-top: 20px ;
+      font-weight: bold;
+      
+        font-family: 'Anuphan', sans-serif;
+      
+      
+    }
     .navbar {
       margin-top: -5%;
       background-color: #0f8619;
@@ -702,6 +714,7 @@ h2{
 }
 
 
+
 .contact-image {
   width: 35%;
   text-align: center;
@@ -712,6 +725,9 @@ h2{
   width: 100%;
   
   margin-bottom: 300px;
+}
+.new{
+  margin-top: 30px;
 }
 .capture .card{
   width: 100%;
