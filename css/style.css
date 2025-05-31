@@ -26,8 +26,13 @@
       
     }
     .calorific .card-img-top{
-      height: 300px; /* Chiều cao hình ảnh */
+      height: 300px; 
       object-fit: cover;
+    }
+    .can{
+      border-radius: 40px;
+      width: 10%;
+      background-color: #e7efe7;
     }
     .mainly h3{
       margin-top: 20px ;
@@ -36,6 +41,18 @@
         font-family: 'Anuphan', sans-serif;
       
       
+    }
+    .coastal h3{
+      text-align: center;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    .cao {
+      height: 500px;
+      object-fit: cover;
+    }
+    .cargo img{
+      margin-top: 350px;
     }
     .navbar {
       margin-top: -5%;
