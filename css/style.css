@@ -21,6 +21,14 @@
       transition: 4s ease-in-out;
 
     }
+    .calorific .card{
+      margin-top: 40px;
+      
+    }
+    .calorific .card-img-top{
+      height: 300px; /* Chiều cao hình ảnh */
+      object-fit: cover;
+    }
     .mainly h3{
       margin-top: 20px ;
       font-weight: bold;
