@@ -25,6 +25,10 @@
       margin-top: 40px;
       
     }
+    .coherence img{
+      margin-bottom: 40px;
+      max-width: 100%;
+    }
     .calorific .card-img-top{
       height: 300px; 
       object-fit: cover;
@@ -33,6 +37,35 @@
       border-radius: 40px;
       width: 10%;
       background-color: #e7efe7;
+    }
+    .sandbox h3{
+      font-family: 'Anton',sans-serif;
+   
+
+
+    }
+    .sandbox h5{
+      
+      font-family: 'Anuphan', sans-serif;
+      margin-top: 20px;
+
+    }
+    .carefully{
+      font-size: 30px;
+      font-weight: bold;
+     
+    }
+    .coherence p{
+      font-size: 20px;
+
+    }
+    .sandbox p{
+      font-family: 'Anuphan', sans-serif;
+      font-size: 18px;
+
+    }
+    .harms{
+      font-weight: bold;
     }
     .mainly h3{
       margin-top: 20px ;
