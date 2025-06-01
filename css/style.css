@@ -66,6 +66,102 @@
       color: #000 !important;
 
     }
+    .technology {
+      font-size: 16px;
+      line-height: 1.6;
+      text-align: justify;
+      padding: 15px;
+      margin: 0 auto;
+      max-width: 100%;
+      box-sizing: border-box;
+      word-break: break-word;
+  }
+
+  @media (max-width: 768px) {
+      .technology {
+          font-size: 15px;
+          padding: 10px 15px;
+      }
+  }
+
+  @media (max-width: 480px) {
+      .technology {
+          font-size: 14px;
+          padding: 8px 12px;
+      }
+  }
+  .landfill {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    word-break: break-word;
+}
+
+@media (max-width: 768px) {
+    .landfill {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .landfill {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
+.half {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+@media (max-width: 768px) {
+  .half {
+      font-size: 15px;
+      padding: 10px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .half {
+      font-size: 14px;
+      padding: 8px 12px;
+  }
+}
+.calculate {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+@media (max-width: 768px) {
+  .calculate {
+      font-size: 15px;
+      padding: 10px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .calculate {
+      font-size: 14px;
+      padding: 8px 12px;
+  }
+}
     .laticsshop{
       color: #0be65e !important;
     }
