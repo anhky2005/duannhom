@@ -750,6 +750,14 @@ h2{
     text-align: center;
     
   }
+  .sampling{
+    background-color: #0be65e;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .lakes{
+    margin-top: 30px;
+  }
  .manufacturing {
     flex: 1;
     margin-left: 10px;
@@ -984,6 +992,7 @@ li:hover{
 .meets{
   color: white;
   cursor: pointer;
+  max-width: 100%;
 }
 .right-image:hover{
   box-shadow: 0 0 15px chartreuse;
