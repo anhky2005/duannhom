@@ -397,6 +397,9 @@
 .seek{
   margin-top: -90%;
 }
+html {
+  scroll-behavior: smooth;
+}
 .banner-image {
   flex: 1;
 }
