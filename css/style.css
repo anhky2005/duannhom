@@ -603,8 +603,8 @@ h2{
     align-items: center;
   }
   .footer-left img {
-    width: 100%;
-    max-width: 100%;
+    width: 300%;
+   
     height: auto;
     object-fit: cover;
   }
@@ -635,6 +635,23 @@ h2{
   footer.img{
     height: 140px;
     width: 50%;
+  }
+  .scope{
+    margin-top: 30px;
+  }
+  .Master{
+    margin-top: 30px;
+    max-width: 100%;
+  }
+  .seafood{
+    background-color: #b2afaf !important;
+  }
+  .heritage{
+    margin-top: 30px;
+    max-width: 100%;
+  }
+  .heritage p{
+    font-size: 20px;
   }
  .certificate img {
   max-height: 150px;
