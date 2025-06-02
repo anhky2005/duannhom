@@ -385,16 +385,30 @@
   height: 250px;
   object-fit: cover;
 }
-
+.scheduled{
+  font-size: 18px;
+}
+.commitment{
+  background-color: #b2afaf;
+}
+.scale{
+  margin-top: -10%;
+}
+.seek{
+  margin-top: -90%;
+}
 .banner-image {
   flex: 1;
 }
-
+.script{
+  margin-top: 20px;
+}
 .banner-overlay {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 60%;
   text-align: center;
   background-color: rgba(0, 102, 0, 0.7); 
   padding: 20px 30px;
@@ -638,6 +652,9 @@ h2{
   }
   .scope{
     margin-top: 30px;
+  }
+  .secondary{
+    font-size: 20px;
   }
   .Master{
     margin-top: 30px;
@@ -1070,9 +1087,11 @@ li:hover{
 }
 .management{
   margin-bottom: 40px;
+  font-size: 20px;
 }
 .medical{
   width: 100%;
+  margin-top: 60px;
   
   
 }
