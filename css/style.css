@@ -103,7 +103,7 @@
       font-size: 16px;
       line-height: 1.6;
       text-align: justify;
-      padding: 15px;
+     
       margin: 0 auto;
       max-width: 100%;
       box-sizing: border-box;
@@ -120,7 +120,7 @@
     @media (max-width: 480px) {
       .technology, .landfill, .half, .calculate {
         font-size: 14px;
-        padding: 8px 12px;
+        padding: 4px 8px;
       }
     }
     
