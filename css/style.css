@@ -813,6 +813,9 @@ h2{
     height: 280px;
 
    }
+   .carried{
+    background-color: rgb(139, 216, 61);
+   }
    .top-container h2{
     margin-top: 30px;
     color: #0ee84f;
