@@ -151,9 +151,35 @@
       margin-top: -5%;
       background-color: #0f8619;
     }
+    .hazardous{
+      margin-top: 35px;
+      max-width: 100%;
+    }
+    .significant{
+      font-size: 25px;
+    }
+    .solution{
+      margin-top: 10px;
+      margin-bottom: 30px;
+      font-size: 18px;
+    }
+   .combines{
+    font-family: 'Anton',sans-serif;
+    font-size: 25px;
 
+   }
+    .commune img{
+      margin-left: 40%;
+    }
+    .commonly img{
+      margin-left: -70%;
+    }
     .navbar-nav .nav-link {
       color: white !important;
+      flex-direction: column;
+      gap: 20px;
+      margin:0 15px;
+      font-size: 20px;
     
       font-family: 'Anton',sans-serif;
 
@@ -183,6 +209,7 @@
     }
    .height{
     color: #0da73b;
+    font-size: 25px;
    }
    .height:hover{
     transform: translateY(-10%);
@@ -218,6 +245,17 @@
    .card:hover{
     transform: translateY(-7%);
     transition: 4s ease-in-out;
+   }
+   .human{
+    color: #0be65e;
+    font-family: 'Anton',sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+   }
+   .human:hover{
+    transform: scale(1.1);
+    transition: 5s ease-in-out;
    }
    .biological{
     color: black;
@@ -400,6 +438,13 @@
 html {
   scroll-behavior: smooth;
 }
+.com{
+  margin-top: 10px;
+}
+.chemical{
+  font-size: 20px;
+}
+
 .banner-image {
   flex: 1;
 }
@@ -674,16 +719,19 @@ h2{
     font-size: 20px;
   }
  .certificate img {
-  max-height: 150px;
+  max-height: 250px;
   width: auto;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 0  auto;
   max-width: 100%; 
+  justify-content: center;
 }
 
  .certificate img:hover{
-  transform: scale(1.1);
+  transform: scale(1.3);
+  cursor: pointer;
+
  }
 
 .content-section .icon {
@@ -707,7 +755,7 @@ h2{
 }
     .content-section2 {
       margin-top: 20px;
-      font-size: 1.rem;
+      font-size: 1rem;
       line-height: 1.8;
       color: #333;
     }
@@ -1072,6 +1120,7 @@ li:hover{
 .carpets{
   color: black;
   max-width: 100%;
+  font-size: 18px;
 }
 .carpets:hover{
   transform: scale(1.1);
