@@ -184,9 +184,13 @@
       font-family: 'Anton',sans-serif;
 
     }
+   
 
     .navbar-nav .nav-item:hover {
       background-color: #60b412;
+      border-radius: 10px;
+      color: chocolate;
+     
     }
     
    
@@ -927,12 +931,18 @@ h2{
   text-decoration: none;
   text-align: center;
 }
+.several{
+  height: 100px;
+  max-width: 100%;
+  object-fit: cover;
+}
 
 
 
 .contact-image {
-  width: 35%;
+ 
   text-align: center;
+  width: 35%;
 }
 .capture{
   margin-top: 80px;

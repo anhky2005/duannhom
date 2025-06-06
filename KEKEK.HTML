@@ -3,75 +3,47 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Form Đăng Nhập</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Mã QR: VÔ THẤY I LOVE YOU</title>
     <style>
-        .content{
-            width: 400px;
-            justify-content: center;
-            align-items: center;
-            height: 400px;
-            box-shadow: 0 0 15px chocolate;
-            margin-top: 40px;
+        body {
+            font-family: Arial, sans-serif;
             text-align: center;
-            background: 10px;
-            background-image: url('images/21.png');
+            padding: 50px;
+            background-color: #f0f0f0;
         }
-        .form-laber{
-            margin-left: -60%;
-            justify-content: center;
-            justify-items: center;
-            font-weight: 700;
-            font-size: 20px;
-            margin-bottom: 20px;
-        }
-        input[type='password'] {
-    background-color: aqua;
-    width: 70%;
-    margin-left: 20%;
-    
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-input[type='text'] {
-    background-color: aqua;
-    width: 70%;
-    margin-left: 20%;
-    
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
 
+        #qrcode {
+            margin-top: 30px;
+        }
+
+        h1 {
+            color: #222;
+        }
     </style>
 </head>
+
 <body>
 
+    <h1>📌 MÃ QR: VÔ THẤY I LOVE YOU</h1>
+    <div id="qrcode"></div>
+
+    <!-- Dùng file JS cục bộ -->
+    <script src="qrcode.min.js"></script>
+
+    <script>
+        window.onload = function () {
+            const qrContainer = document.getElementById("qrcode");
+            new QRCode(qrContainer, {
+                text: "VÔ THẤY I LOVE YOU",
+                width: 256,
+                height: 256,
+                colorDark: "#000000",
+                colorLight: "#ffffff",
+                correctLevel: QRCode.CorrectLevel.H
+            });
+        };
+    </script>
+
 </body>
-  <div class="container-fluid">
-    <div class="content">
-        <h2>Danh nhap</h2>
-        <form>
-            <div class="mb-3">
-                <label for="username" class="form-laber">Ten Dang Nhap</label>
-                <input type="text" class="form-control" id="name"  placeholder="Nhap thong tin">
-                
-            </div>
-            <div class="mb-3">
-                <label for="password" class="form-laber">Mat Khau</label>
-                <input type="password" class="form-control" id="name" placeholder="Nhap thong tin">
-              
-                    <button type="button" class="btn btn-primary">Dng nhap</button>
-                
-            </div>
-           
-        </form>
-
-    </div>
-    
-  </div>
-
 
 </html>
