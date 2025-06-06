@@ -882,6 +882,9 @@ h2{
   }
   .lakes{
     margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Anton',sans-serif;
+    color: #0be65e;
   }
  .manufacturing {
     flex: 1;
@@ -935,6 +938,19 @@ h2{
   height: 100px;
   max-width: 100%;
   object-fit: cover;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+.dedication{
+  width: 20%;
+  border-radius: 10px;
+}
+.dedication:hover{
+  background-color: red;
+  transition: ease-in-out;
+  cursor: pointer;
 }
 
 
