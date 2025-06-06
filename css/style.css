@@ -886,6 +886,16 @@ h2{
     font-family: 'Anton',sans-serif;
     color: #0be65e;
   }
+  .design strong{
+    font-family: 'Anton',sans-serif;
+
+  }
+  .lakes:hover{
+   transform: scale(1.1);
+  }
+  .safely:hover{
+    transform: scale(1.1);
+  }
  .manufacturing {
     flex: 1;
     margin-left: 10px;
