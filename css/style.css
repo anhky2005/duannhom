@@ -910,6 +910,13 @@ h2{
   .compact{
     font-size: 20px;
   }
+  .decisive a{
+    text-decoration: none !important;
+  }
+  .support{
+    font-size: 20px;
+    margin-top: 10px;
+  }
   .solvents{
     margin-bottom: 20px;
   }
