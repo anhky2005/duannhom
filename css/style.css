@@ -910,6 +910,9 @@ h2{
   .compact{
     font-size: 20px;
   }
+  .catalytic{
+    font-size: 18px;
+  }
   .decisive a{
     text-decoration: none !important;
   }
