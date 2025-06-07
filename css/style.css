@@ -893,6 +893,37 @@ h2{
     margin-top: 60px;
     margin: 0 15px;
   }
+  .showcases{
+    color: #0be65e;
+  }
+  .stages{
+    font-family: 'Anton',sans-serif;
+    font-size: 25px;
+    color: #000 !important;
+  }
+  .field{
+    font-weight: bold !important;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .compact{
+    font-size: 20px;
+  }
+  .solvents{
+    margin-bottom: 20px;
+  }
+  .safety{
+    font-size: 30px;
+    font-family: 'Anuphan', sans-serif;
+    color: #000 !important;
+    font-weight: bold;
+  }
+  .collaborated{
+    font-weight:bold;
+    font-size:20px ;
+    margin-top: 20px;
+  }
   .has h4{
     color: #0be65e;
 
