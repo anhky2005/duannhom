@@ -886,6 +886,27 @@ h2{
     font-family: 'Anton',sans-serif;
     color: #0be65e;
   }
+  .skillful img{
+    
+    object-fit: cover;
+    cursor: pointer;
+    margin-top: 60px;
+    margin: 0 15px;
+  }
+  .has h4{
+    color: #0be65e;
+
+  }
+  .skillful img:hover{
+    transform: scale(1.1);
+
+  }
+  .skillful p{
+    font-size: 20px;
+    margin-top: 40px;
+    
+    
+  }
   .design strong{
     font-family: 'Anton',sans-serif;
 
