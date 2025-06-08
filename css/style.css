@@ -907,8 +907,19 @@ h2{
     margin-top: 15px;
     margin-bottom: 20px;
   }
+  .chemical{
+    font-size: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+  }
   .compact{
     font-size: 20px;
+  }
+  .household{
+    margin-top: -1% !important;
+  }
+  .spectrum{
+    gap: 20px;
   }
   .catalytic{
     font-size: 18px;
