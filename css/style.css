@@ -216,7 +216,7 @@
     .section-title {
       margin: 60px 0 30px;
       color: #0cb53c;
-      font-size: 30px;
+      font-size: 30px !important;
       
       text-align: center;
       font-family: 'Anton',sans-serif;
@@ -392,16 +392,20 @@
     display: flex;             
     justify-content: center;   
     align-items: center;       
-    overflow: hidden;          
+    overflow: hidden;
+    object-fit: cover;          
     border-radius: 8px;        
-    background-color: #fff;    
+    background-color: #fff; 
+    margin-top: 50px;   
   }
 
 
   .small-card img {
     max-height: 90%;           
     max-width: 90%;            
-    object-fit: contain;       
+    object-fit: contain;
+    
+    
   }
   h6{
     margin-top: 15px;
@@ -775,12 +779,12 @@ h2{
        margin-top: 20px;
      
     }
-    .highlight-title:hover{
+.highlight-title:hover{
   transform: translateY(-17%);
   transition: 0.10S ease-in-out;
    cursor: pointer;
 }
-    .content-section2 {
+  .content-section2 {
       margin-top: 20px;
       font-size: 1rem;
       line-height: 1.8;
@@ -955,7 +959,9 @@ h2{
     margin-top: 10px;
   }
   .solvents{
-    margin-bottom: 20px;
+    margin-bottom: 80px;
+    height: auto;
+    
   }
   .safety{
     font-size: 30px;
