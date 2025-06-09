@@ -147,6 +147,25 @@
     .cargo img{
       margin-top: 350px;
     }
+    ul li{
+      color: #000;
+      cursor: pointer;
+    }
+    .strong{
+      background-color: #89b185;
+      font-size: 10px;
+      height: auto;
+      padding: 20px;
+    }
+    .small{
+      font-family: 'Anton',sans-serif;
+      color: #0be65e !important;
+
+    }
+    .libs{
+      font-family: 'Anton',sans-serif;
+
+    }
     .navbar {
       margin-top: -5%;
       background-color: #0f8619;
@@ -723,17 +742,21 @@ h2{
     font-size: 20px;
   }
  .certificate img {
-  max-height: 250px;
-  width: auto;
+  max-height: 280px;
   height: auto;
+  width: auto;
+  
   display: block;
-  margin: 0  auto;
+  margin: 0 auto;
   max-width: 100%; 
   justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
  .certificate img:hover{
-  transform: scale(1.3);
+  transform: scale(1.2);
   cursor: pointer;
 
  }
