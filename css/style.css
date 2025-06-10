@@ -570,13 +570,17 @@ transform: translateY(-10%);
 .conducted p{
   font-size: 15px;
 }
+.development{
+  color: white;
+}
 
 input[type="text"] {
  
-  
+  border: #0be65e;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  
 }
 button[type="button"]{
    width: 100px;
@@ -598,6 +602,7 @@ button[type="button"]:hover{
   border-radius: 5px;
   cursor: pointer;
   transition: 0.5s;
+  border: #0be65e;
   
 
 }
@@ -702,6 +707,39 @@ h2{
     
     p{
       color: #000;
+    }
+    .followed{
+      background-color: #1f6d1b; 
+      color: white;
+    }
+    .devices{
+      color: white !important;
+      margin-top: 10px;
+      margin-left: 2%;
+      max-width: 100%;
+    }
+   
+    .low-concentration{
+      color: white !important;
+     
+    }
+    .long-term{
+      background-color: #000;
+      color: white !important;
+    }
+    .heritage{
+      background-color: #000;
+    }
+    .cases{
+      color: white;
+    }
+    .leadership{
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      
+      
     }
      .footer {
     background-color: #1f6d1b;
