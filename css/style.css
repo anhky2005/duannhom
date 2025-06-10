@@ -12,7 +12,10 @@
     .logo {
       max-height: 100px;
       max-width: 100%;
+      
+     
       height: auto;
+      
       
      
     }
@@ -544,10 +547,13 @@ html {
   cursor: pointer;
   font-family: 'Anton',sans-serif;
   color: #0cb53c;
+  
  
 
 }
-
+.still{
+  margin-top: -10% !important;
+}
 
 .banner-overlay h2 {
   font-size: 20px;
