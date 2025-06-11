@@ -717,6 +717,7 @@ h2{
       margin-top: 10px;
       margin-left: 2%;
       max-width: 100%;
+      
     }
    
     .low-concentration{
@@ -750,45 +751,7 @@ h2{
     margin-top: 90px;
     margin-top: 20px;
   }
-  .footer-left {
-    flex: 1;
-    display: flex;
-    align-items: center;
-  }
-  .footer-left img {
-    width: 300%;
-   
-    height: auto;
-    object-fit: cover;
-  }
-  .footer-right {
-    flex: 3;
-    padding-left: 20px;
-    font-size: 14px;
-  }
-  .footer-right h3 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  .footer-right p, .footer-right ul {
-    margin: 5px 0;
-    color: white;
-  }
-  .footer-right ul {
-    padding-left: 20px;
-  }
-  .footer-bottom {
-    background-color: #202020; 
-    color: #ccc;
-    text-align: center;
-    padding: 10px;
-    font-size: 13px;
-  }
-  footer.img{
-    height: 140px;
-    width: 50%;
-  }
+  
   .scope{
     margin-top: 30px;
   }
@@ -805,6 +768,7 @@ h2{
   .heritage{
     margin-top: 30px;
     max-width: 100%;
+    background-color: white !important;
   }
   .heritage p{
     font-size: 20px;
@@ -1367,16 +1331,17 @@ li:hover{
   font-family: 'Anton',sans-serif;
   margin-top: 50px;
 }
-.facility{
-  background-color: #d2d1b4;
+.facility1{
+  background-color: #d2d1b4 !important;
   max-width: 100%;
   width: 100%;
 }
-.facility h2{
+.facility1 h2{
   font-family: 'Anton',sans-serif;
   text-align: center;
-  color: black;
+  color: black !important;
   margin-top: 40px;
+  margin-top: 40px !important;
 }
 
 @media (max-width: 1200px) { /* Desktop */
