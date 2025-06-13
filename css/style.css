@@ -822,9 +822,10 @@ h2{
   }
   
   .decompose{
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 37%;
+   
     margin-top: 20px;
   }
   .decompose:hover{
