@@ -795,11 +795,27 @@ h2{
     margin-bottom: 1rem;
   }
   .culture{
+    margin-bottom: 80px !important;
     
   }
+  .recycling1{
+    margin-bottom: 50px !important;
+    color: #0be65e;
+    font-size: 25px !important;
+    
+
+  }
+ 
+
   .Shipping {
     margin-bottom: 50px;
   }
+  .Shipping img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
   .decompose{
     justify-content: center;
     align-items: center;
