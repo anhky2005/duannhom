@@ -762,6 +762,65 @@ h2{
     margin-top: 30px;
     max-width: 100%;
   }
+  .image-container {
+    position: relative;
+  }
+  
+  .background-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .gates-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #0be65e;
+    font-family: 'Anton', sans-serif;
+    width: 80%;
+    text-align: center;
+    
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .warehouse{
+    text-decoration: none;
+    color: #000 !important;
+  }
+  
+  .gates-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .culture{
+    
+  }
+  .Shipping {
+    margin-bottom: 50px;
+  }
+  .decompose{
+    justify-content: center;
+    align-items: center;
+    margin-left: 37%;
+    margin-top: 20px;
+  }
+  .decompose:hover{
+    background-color: #0be65e;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+  }
+  
+  
+  .gates-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  
+ 
   .seafood{
     background-color: #b2afaf !important;
   }
