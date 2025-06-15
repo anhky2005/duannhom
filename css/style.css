@@ -511,10 +511,12 @@ html {
   color: white;
 }
 .development1 {
- 
- 
   animation: moveText 5s linear infinite;
   color: #0be65e !important;
+ 
+  display: inline-block;
+  
+  overflow: hidden;
 }
 @keyframes moveText {
   0% {
@@ -524,6 +526,7 @@ html {
     transform: translateX(-100%);
   }
 }
+
 .full-width-banner img {
   height: 300px;
   width: 100%;
