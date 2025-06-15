@@ -510,7 +510,9 @@ html {
   border-radius: 10px;
   color: white;
 }
-.development {
+.development1 {
+ 
+ 
   animation: moveText 5s linear infinite;
   color: #0be65e !important;
 }
@@ -521,6 +523,13 @@ html {
   100% {
     transform: translateX(-100%);
   }
+}
+.full-width-banner img {
+  height: 300px;
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  object-fit: cover; 
 }
 
 
