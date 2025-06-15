@@ -510,19 +510,21 @@ html {
   border-radius: 10px;
   color: white;
 }
-.banner-meme {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  background-color: rgba(0, 102, 0, 0.7); 
-  padding: 20px 30px;
-  border-radius: 10px;
- color: white;
- margin-top: 30px;
-  
+.development {
+  animation: moveText 5s linear infinite;
+  color: #0be65e !important;
 }
+@keyframes moveText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
 .has a{
   text-decoration: none;
 }
